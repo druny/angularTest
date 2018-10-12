@@ -24,9 +24,9 @@ export class PostListComponent implements OnInit {
   }
 
   add(post: Post): void {
-    if (!post.title && ! post.body) return;
+    if (!post.title && !post.body) return;
   
-    this.postListService.addPost({ post } as Post)
+    this.postListService.addPost(post)
       .subscribe(post => this.posts.push(post));
   }
 
