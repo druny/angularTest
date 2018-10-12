@@ -1,9 +1,11 @@
 <div class="mainView">
   <header class="titleBar">
     <h1 class="title">{{title}}</h1>
+    <nav class="navigation">
+      <a routerLink="/">Posts</a>
+      <a routerLink="add-post">Add post</a>
+    </nav>
   </header>
-  <div class="postListView">
-    <app-post-list></app-post-list>
-  </div>
+  <router-outlet></router-outlet>
   <app-messages></app-messages>
 </div>
