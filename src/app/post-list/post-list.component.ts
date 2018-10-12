@@ -20,7 +20,7 @@ export class PostListComponent implements OnInit {
 
   getPosts(): void {
     this.postListService.getPosts()
-      .subscribe(posts => { console.log(posts); this.posts = posts});
+      .subscribe(posts => this.posts = posts);
   }
 
   add(post: Post): void {
