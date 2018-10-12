@@ -1,0 +1,37 @@
+.mainView {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    min-height: 100px;
+    background-color: #e91e63;
+    padding: 15px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.title {
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.messages {
+    color: #fff;
+    font-size: 16px;
+    margin: 4px 6px;
+}
+
+.clearButton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #fff;
+    font-size: 16px;
+    color: #e91e63;
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+}
